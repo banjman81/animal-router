@@ -38,8 +38,8 @@
 
 9. create a delete request to delete the animalName using animalName params. If successfully deleted, your program should tell the user that successfully deleted the animal, and returns the deleted animal to the user. 
 
-    Request -- "/api/delete-animal-by-name/:name"
+    Request -- "/api/delete-animal-by-name/:{animal name}"
 
 10. create a delete request to delete the animalName using ID params. If successfully deleted, your program should tell the user that successfully deleted the animal, and returns the deleted animal to the user. 
 
-    Request -- "/api/delete-animal-by-id/:id"
+    Request -- "/api/delete-animal-by-id/:{animal id}"
