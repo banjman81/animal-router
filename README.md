@@ -24,14 +24,14 @@
 
 7. create a Put request to update the animalName using animalName params. If successfully updated the name, your program should tell the user that successfully updated and send back the updated animal object. If the animal doesnt exists it should tell the user animal doesnt exists please check your spelling
 
-    Request -- "/api/edit-animal-by-name/:name"
+    Request -- "/api/edit-animal-by-name/:{name}"
         use raw JSON in this format {
                                         "animalName": "{unique animal}"
                                     }
 
 8. create a Put request to update the animalName using ID params. If successfully updated the name, your program should tell the user that successfully updated and send back the updated animal object. If the animal doesnt exists it should tell the user animal doesnt exists please check your spelling
 
-    Request -- "/api/edit-animal-by-id/:id"
+    Request -- "/api/edit-animal-by-id/:{id}"
         use raw JSON in this format {
                                         "animalName": "{unique animal}"
                                     }
